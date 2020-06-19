@@ -1,0 +1,5 @@
+pqp (1.3) UNRELEASED; urgency=low
+
+  * now use isnan() to test for NaN, instead of a comparison that was sometimes optimized away.
+
+ -- University of North Carolina at Chapel Hill <geom@cs.unc.edu>  Tue, 29 Jun 1999 12:00:00 -0500
